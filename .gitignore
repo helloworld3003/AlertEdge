@@ -1,0 +1,9 @@
+# Ignore local AI agent and tool folders
+.agents/
+graphify-out/
+stitch_preview/
+
+# Ignore local documents and scripts not meant for the repo
+*.pdf
+summary.md
+drowsiness.py
