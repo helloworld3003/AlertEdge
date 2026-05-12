@@ -10,8 +10,6 @@
   
 </div>
 
-
-
 ## 🚀 Features
 
 - **Real-Time ML Pipeline**: Uses Google ML Kit Face Mesh + Frame-based Eye Aspect Ratio (EAR) algorithm running natively on Android/iOS.
