@@ -1,0 +1,56 @@
+name: alert_edge_app
+description: An automotive drowsiness detection system using an ESP32-CAM and MediaPipe.
+publish_to: 'none'
+
+version: 1.5.9+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Network & ESP32 Comm
+  http: ^1.2.0
+  wifi_iot: ^0.3.1
+  # GPS Speed Tracking
+  geolocator: ^13.0.2
+  
+  # ML & Image Processing
+  google_mlkit_face_mesh_detection: any
+  image: any
+  
+  # Alerts
+  flutter_tts: ^3.8.3
+  
+  # Logging
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  google_fonts: ^6.1.0
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+  shared_preferences: ^2.5.5
+  # Keep screen/CPU awake when armed so detection continues if phone locks
+  wakelock_plus: ^1.2.8
+  flutter_foreground_task: ^9.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: SpaceGrotesk
+      fonts:
+        - asset: assets/fonts/SpaceGrotesk-Regular.ttf
+        - asset: assets/fonts/SpaceGrotesk-Bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
