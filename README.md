@@ -2,21 +2,9 @@
 
 **A real-time driver drowsiness detection system combining embedded hardware (ESP32-CAM) with an on-device Flutter ML pipeline, smart GPS location services, and background audio monitoring.**
 
----
+## Demo Video
 
-## 📸 Screenshots
-
-<div align="center">
-  <img src="screenshots/dashboard.png" width="150" alt="Dashboard"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/analytics.png" width="150" alt="Analytics"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/profile.png" width="150" alt="Profile/Settings"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/records.png" width="150" alt="Records"/>
-</div>
-
----
+![Demo](screenshots/Demo.mp4)
 
 ## 🚀 Features
 
@@ -61,6 +49,33 @@ EAR = ----------------------------
 
 Both eyes are processed simultaneously and averaged. A rolling window smooths the EAR readings, and the system waits for `N` consecutive closed frames before triggering an alarm, preventing false positives from random blinking or glasses frames.
 
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshots/dashboard.png" width="150" alt="Dashboard"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/analytics.png" width="150" alt="Analytics"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/profile.png" width="150" alt="Profile/Settings"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="screenshots/records.png" width="150" alt="Records"/>
+</div>
+
+---
+
+## App Details
+* **Dashboard**: Shows the live feed from the ESP32-CAM and the current drowsiness status. Shows speed from GPS.ESP flash can be controlled from here.
+* **Analytics**: Shows the drowsiness analytics and historical data.
+* **Profile**: Shows the profile information and settings.
+* **Records**: Shows the drowsiness records and historical data.
+
+## Circuit diagram
+![Circuit Diagram](screenshots/AlertEdge_Schematics.svg)
+### Protoype circuit 
+![Prototype Circuit](screenshots/prototype.jpg)
+
 ## ⚙️ Getting Started
 
 ### Hardware Setup
@@ -74,6 +89,8 @@ Both eyes are processed simultaneously and averaged. A rolling window smooths th
 2. Build the app using `flutter build apk` (or run it on your device).
 3. Connect the app to the ESP32-CAM by entering the ESP32's IP address in the Profile settings.
 4. Adjust the EAR Threshold and frame trigger settings according to your lighting and driver characteristics.
+
+#### App Provided APK - app-release.apk
 
 ## 🛡️ Privacy & Safety
 All machine learning and face mesh processing occurs strictly **on-device**. No video frames or personal data are ever uploaded to the cloud.
