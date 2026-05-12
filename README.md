@@ -5,16 +5,15 @@
 ---
 
 ## 📸 Screenshots
-*(Please place your screenshots in a `screenshots` folder to display them here)*
 
 <div align="center">
-  <img src="screenshots/dashboard.png" width="200" alt="Dashboard"/>
+  <img src="screenshots/dashboard.png" width="150" alt="Dashboard"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/analytics.png" width="200" alt="Analytics"/>
+  <img src="screenshots/analytics.png" width="150" alt="Analytics"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/profile.png" width="200" alt="Profile/Settings"/>
+  <img src="screenshots/profile.png" width="150" alt="Profile/Settings"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="screenshots/records.png" width="200" alt="Records"/>
+  <img src="screenshots/records.png" width="150" alt="Records"/>
 </div>
 
 ---
