@@ -4,7 +4,7 @@
 
 ## Demo Video/ Protoype circuit
 <div align="center">
-  <video src="screenshots/Demo.mp4" width="400" controls autoplay loop></video>
+  <video src="https://github.com/helloworld3003/AlertEdge/raw/main/screenshots/Demo.mp4" width="400" controls autoplay loop></video>
   <img src="screenshots/prototype.jpg" width="400" alt="Prototype"/>
   &nbsp;&nbsp;&nbsp;
   
