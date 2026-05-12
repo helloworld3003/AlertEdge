@@ -2,9 +2,15 @@
 
 **A real-time driver drowsiness detection system combining embedded hardware (ESP32-CAM) with an on-device Flutter ML pipeline, smart GPS location services, and background audio monitoring.**
 
-## Demo Video
+## Demo Video/ Protoype circuit
+<div align="center">
+  <video src="screenshots/Demo.mp4" width="400" controls autoplay loop></video>
+  <img src="screenshots/prototype.jpg" width="400" alt="Prototype"/>
+  &nbsp;&nbsp;&nbsp;
+  
+</div>
 
-<video src="screenshots/Demo.mp4" width="100%" controls autoplay loop></video>
+
 
 ## 🚀 Features
 
@@ -73,8 +79,7 @@ Both eyes are processed simultaneously and averaged. A rolling window smooths th
 
 ## Circuit diagram
 ![Circuit Diagram](screenshots/AlertEdge_Schematics.svg)
-### Protoype circuit 
-![Prototype Circuit](screenshots/prototype.jpg)
+
 
 ## ⚙️ Getting Started
 
