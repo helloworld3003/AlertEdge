@@ -4,7 +4,7 @@
 
 ## Demo Video
 
-![Demo](screenshots/Demo.mp4)
+<video src="screenshots/Demo.mp4" width="100%" controls autoplay loop></video>
 
 ## 🚀 Features
 
