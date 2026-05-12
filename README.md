@@ -4,6 +4,10 @@
 
 ## Demo Video/ Protoype circuit
 <div align="center">
+
+https://github.com/user-attachments/assets/074cff06-830e-4033-b8f4-68daab55052b
+
+
   <video src="https://raw.githubusercontent.com/helloworld3003/AlertEdge/main/screenshots/Demo.mp4" type="video/mp4" width="400" controls autoplay loop></video>
   <img src="screenshots/prototype.jpg" width="400" alt="Prototype"/>
   &nbsp;&nbsp;&nbsp;
