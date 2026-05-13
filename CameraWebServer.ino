@@ -72,8 +72,10 @@ void setup() {
 
   pinMode(12, OUTPUT); // Piezo Buzzer
   pinMode(4,  OUTPUT); // Flash LED
+  pinMode(13, OUTPUT); // Secondary LED
   digitalWrite(12, LOW);
   digitalWrite(4,  LOW);
+  digitalWrite(13, LOW);
 
   // ===========================
   // Camera Initialization
@@ -230,7 +232,10 @@ void loop() {
       // Alarm done — turn everything off
       digitalWrite(12, LOW);      // Buzzer off
       stopMotor();                // Motor off (PWM → 0)
-      if (!manualFlashOn) digitalWrite(4, LOW);
+      if (!manualFlashOn) {
+        digitalWrite(4, LOW);
+        digitalWrite(13, LOW);
+      }
       flashBlinkState = false;
       buzzerActive = false;
     } else if (!manualFlashOn) {
@@ -240,6 +245,7 @@ void loop() {
         lastBlinkMillis = now;
         flashBlinkState = !flashBlinkState;
         digitalWrite(4, flashBlinkState ? HIGH : LOW);
+        digitalWrite(13, flashBlinkState ? HIGH : LOW);
       }
     }
   }
