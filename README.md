@@ -80,7 +80,7 @@ Both eyes are processed simultaneously and averaged. A rolling window smooths th
 * **Records**: Shows the drowsiness records and historical data.
 
 ## Circuit diagram
-![Circuit Diagram](screenshots/AlertEdge_Schematics.png)
+![Circuit Diagram](screenshots/AlertEdge_Schematics.svg)
 
 
 ## ⚙️ Getting Started
