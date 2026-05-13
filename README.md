@@ -81,7 +81,7 @@ Both eyes are processed simultaneously and averaged. A rolling window smooths th
 
 ## Circuit diagram
 ![Circuit Diagram](screenshots/AlertEdge_Schematics.svg)
-
+ 
 
 ## ⚙️ Getting Started
 
